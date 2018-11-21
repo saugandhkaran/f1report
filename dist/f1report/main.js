@@ -589,7 +589,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\LogFiles\Personal\f1report\f1report\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\LogFiles\Personal\f1report\src\main.ts */"./src/main.ts");
 
 
 /***/ })
