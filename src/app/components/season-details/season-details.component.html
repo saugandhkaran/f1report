@@ -1,0 +1,12 @@
+<button (click)="goBackToOverviewPage()">Back</button>
+<h2>Winners of all the races for the Season {{seasonYear}}</h2>
+<div *ngFor="let result of seasonHistory">
+<div class="card" >
+  <div class="card--content-left" [ngStyle]="{'background-color':result.Results[0].Driver.code === seasonChampion ? 'lightgrey' : 'white'}">
+    <label>{{result.raceName}}</label>
+  </div>
+  <div class="card--content-right" [ngStyle]="{'background-color':result.Results[0].Driver.code === seasonChampion ? '#C93644' : '#E2041A'}">
+    <label>{{result.Results[0].Driver.givenName}} {{result.Results[0].Driver.familyName}}</label>
+  </div>
+</div>
+</div>

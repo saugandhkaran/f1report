@@ -1,0 +1,10 @@
+<div *ngFor="let result of championList">
+<div class="card" (click)="goToSeasonHistory(result.season, result.DriverStandings[0].Driver.code)">
+  <div class="card--content-left">
+   <label>{{result.season}}</label>
+  </div>
+  <div class="card--content-right">
+   <label>{{result.DriverStandings[0].Driver.givenName}} {{result.DriverStandings[0].Driver.familyName}}</label>
+  </div>
+</div>
+</div>
