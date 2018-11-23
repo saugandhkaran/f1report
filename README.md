@@ -20,7 +20,7 @@ Stacks used:
 
 * Angular (7.0.5)
 * CSS/HTML
-* Git version control (descriptive commit messages)
+* Git version control
 * Angular Styleguide
 
 ## How to use
