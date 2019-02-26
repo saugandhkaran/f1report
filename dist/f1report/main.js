@@ -76,7 +76,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "div {\r\n  margin: 0 auto;\r\n  max-width: 1366px;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxlQUFlO0VBQ2Ysa0JBQWtCO0NBQ25CIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXYge1xyXG4gIG1hcmdpbjogMCBhdXRvO1xyXG4gIG1heC13aWR0aDogMTM2NnB4O1xyXG59XHJcbiJdfQ== */"
+module.exports = "div {\r\n  margin: 0 auto;\r\n  max-width: 1366px;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxjQUFjO0VBQ2QsaUJBQWlCO0FBQ25CIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXYge1xyXG4gIG1hcmdpbjogMCBhdXRvO1xyXG4gIG1heC13aWR0aDogMTM2NnB4O1xyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -87,7 +87,7 @@ module.exports = "div {\r\n  margin: 0 auto;\r\n  max-width: 1366px;\r\n}\r\n\r\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\r\n<div>\r\n<h1>F1 Report 2005 - 2015</h1>\r\n<router-outlet></router-outlet>\r\n</div>\r\n"
+module.exports = "<div>\r\n<h1>F1 Report 2005 - 2015</h1>\r\n<router-outlet></router-outlet>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -207,7 +207,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngFor=\"let result of championList\">\r\n<div class=\"card\" (click)=\"goToSeasonHistory(result.season, result.DriverStandings[0].Driver.code)\">\r\n  <div class=\"card--content-left\">\r\n   <label>{{result.season}}</label>\r\n  </div>\r\n  <div class=\"card--content-right\">\r\n   <label>{{result.DriverStandings[0].Driver.givenName}} {{result.DriverStandings[0].Driver.familyName}}</label>\r\n  </div>\r\n</div>\r\n</div>"
+module.exports = "<h2>Champions for the period 2005 - 2015</h2>\r\n<div *ngFor=\"let result of championList\">\r\n<div class=\"card\" (click)=\"goToSeasonHistory(result.season, result.DriverStandings[0].Driver.code)\">\r\n  <div class=\"card--content-left\">\r\n   <label>{{result.season}}</label>\r\n  </div>\r\n  <div class=\"card--content-right\">\r\n   <label>{{result.DriverStandings[0].Driver.givenName}} {{result.DriverStandings[0].Driver.familyName}}</label>\r\n  </div>\r\n</div>\r\n</div>"
 
 /***/ }),
 
